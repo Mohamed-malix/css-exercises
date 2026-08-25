@@ -34,11 +34,11 @@ button {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform-origin: center;
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  
 }
 
 .popup-modal p {
@@ -56,8 +56,17 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+   animation-name: animatetop;
+  animation-duration: 0.4s;
+   transform-origin: center;
+ 
+  
 }
 
 .backdrop.show {
   opacity: 30%;
 }
+
+
+
+

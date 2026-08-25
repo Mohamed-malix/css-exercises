@@ -3,8 +3,14 @@
 body {
   height: 100vh;
   margin: 0;
+  padding:0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  min-height: 100vh;
+   display:flex ;
+  flex-direction:column;
+  flex:1;
 }
 
 img {
@@ -24,3 +30,76 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+
+
+
+
+ul{
+   list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(39, 39, 39);
+}
+
+
+.header{
+   display:flex;
+  justify-content:space-between; 
+  padding-right:15px;
+  
+}
+
+.footer{
+  display:flex;
+  justify-content:space-between;
+  padding-right:15px;
+  margin-top: auto;
+  background:#eee;
+}
+
+
+/* .mom-div{
+  display:flex ;
+  flex-direction:column;
+  justify-content:space-between;
+} */
+
+
+ul{
+ display:flex;
+ gap:10px;
+}
+
+
+
+
+.content{
+  /* margin:0 auto ;
+  margin-top: auto;
+  margin-bottom: 80px; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+
+
+ 
+.content .put{
+ margin-left: 80px;
+ margin-bottom:20px;
+
+} 
